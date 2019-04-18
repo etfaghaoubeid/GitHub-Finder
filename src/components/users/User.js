@@ -28,12 +28,7 @@ export default class User extends Component {
   render() {
     return (
       <div className="container">
-        {/* <form className="form-inline my-3 mx-3 form-control-plaintext" onSubmit={this.handleFormSubmite}>
-        <div class="form-group mx-sm-3 mb-2">
-           <input type="text" className="form-control-plaintext" value={this.state.input} onChange={this.handleInputChange}/>
-        </div>
-        <button type="submit" className="btn btn-primary">search </button>
-        </form> */}
+        
 
         <form class="form-inline my-2 mx-2 my-lg-6" onSubmit={this.handleFormSubmite}>
       <input class="form-control mr-sm-2" type="text" placeholder="GitHub Uesername"  value={this.state.input} onChange={this.handleInputChange}/>
