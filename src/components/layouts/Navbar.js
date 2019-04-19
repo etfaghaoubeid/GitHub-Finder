@@ -49,6 +49,11 @@ export default function Navbar() {
               </div>
             </li>
             <li className="nav-item">
+              <Link to="/company-repos" className="nav-link">
+                Company
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/about" className="nav-link">
                 About
               </Link>
