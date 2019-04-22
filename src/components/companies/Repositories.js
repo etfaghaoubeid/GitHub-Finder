@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import { CLIENT_ID, CLIENT_SECRET_KEY } from '../../config/githubKeys';
-import Repository from "./Repository"
+import Repository from "../forms/Repository"
 
 export default class Repositories extends Component {
   state = {

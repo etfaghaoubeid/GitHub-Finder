@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function UserInfo({ userData }) {
+export default function User({ userData }) {
   const {
     avatar_url,
     location,
@@ -34,20 +34,20 @@ export default function UserInfo({ userData }) {
                 {bio}
               </p>
               <p className="card-text">
-                <i class="fas fa-briefcase " /> : {company}
+                <i className="fas fa-briefcase " /> : {company}
               </p>
               <p className="card-text">
-                <i class="fas fa-code " /> : {public_repos}
+                <i className="fas fa-code " /> : {public_repos}
               </p>
               <p className="card-text">
-                <i class="fas fa-users " /> : {followers}
+                <i className="fas fa-users " /> : {followers}
               </p>
 
               <p className="card-text">
-                <i class="fas fa-map-marker " /> : {location}
+                <i className="fas fa-map-marker " /> : {location}
               </p>
               <p className="card-test">
-                <i class="fas fa-envelope-square" /> :{email}
+                <i className="fas fa-envelope-square" /> :{email}
               </p>
             </div>
           </div>

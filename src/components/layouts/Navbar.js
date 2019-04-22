@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <nav className="navbar navbar-expand-md  mb-3">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          Github LookUp
+          <i className="fab fa-github 5x" /> Finder
         </Link>
         <button
           className="navbar-toggler"
@@ -50,7 +50,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/company-repos" className="nav-link">
-                Company
+                Companies
               </Link>
             </li>
             <li className="nav-item">

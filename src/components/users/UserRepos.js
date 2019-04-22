@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import {CLIENT_ID,CLIENT_SECRET_KEY} from "../../config/githubKeys";
-import RepoInfo from './RepoInfo';
+import Repository from "../forms/Repository"
 
 
 export default class UserRepos extends Component {
@@ -49,7 +49,7 @@ export default class UserRepos extends Component {
          {
            
            this.state.userRepos.length>0?
-           this.state.userRepos.map(repo=><RepoInfo key={repo.id} repo={repo}/>):null
+           this.state.userRepos.map(repo=><Repository key={repo.id} repo={repo}/>):null
          }
          </div>
       </div>

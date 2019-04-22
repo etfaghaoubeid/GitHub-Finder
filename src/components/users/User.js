@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import {CLIENT_ID,CLIENT_SECRET_KEY} from '../../config/githubKeys'
 import UserInfo from './UserInfo'
+import Repository from "../forms/Repository"
 
 
 export default class User extends Component {
@@ -34,7 +35,7 @@ export default class User extends Component {
       <input class="form-control mr-sm-2" type="text" placeholder="GitHub Uesername"  value={this.state.input} onChange={this.handleInputChange}/>
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
-      {this.state.userData!=null?<UserInfo userData={this.state.userData} />:null}
+      {this.state.userData!=null?<Repository userData={this.state.userData} />:null}
       </div>
     )
   }
