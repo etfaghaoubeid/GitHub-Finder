@@ -13,8 +13,23 @@ body {
         background: #24292e;
         color: #fff;
 
-        li {
-            color: #FFF;
+        .logo {
+            color: #FFF
         }
+
+        .link {
+            color: #FFF;
+
+            &:hover {
+                color: #d1d3d4
+            }
+        }
+
+
+    }
+
+    .navaba {
+        color: #FFF;
+
     }
 }

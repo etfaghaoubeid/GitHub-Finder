@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md  mb-3">
+    <nav className="navbar navbar-expand-md  mb-3 navabar-custom">
       <div className="container">
-        <Link to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand logo">
           <i className="fab fa-github 5x" /> Finder
         </Link>
         <button
@@ -20,10 +20,10 @@ export default function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarColor01">
+        <div className="collapse navbar-collapse" id="navbarColor01 ">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link link">
                 Home <span className="sr-only">(current)</span>
               </Link>
             </li>
@@ -31,7 +31,7 @@ export default function Navbar() {
             <li className="nav-item dropdown">
               <Link
                 to="/find-user"
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle link"
                 data-toggle="dropdown"
                 role="button"
                 aria-haspopup="true"
@@ -49,12 +49,12 @@ export default function Navbar() {
               </div>
             </li>
             <li className="nav-item">
-              <Link to="/company-repos" className="nav-link">
+              <Link to="/company-repos" className="nav-link link">
                 Companies
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link">
+              <Link to="/about" className="nav-link link">
                 About
               </Link>
             </li>
