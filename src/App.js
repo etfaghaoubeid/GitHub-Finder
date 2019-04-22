@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import './scss/main.scss';
 import { Route } from 'react-router-dom';
 
 import Main from './components/layouts/Main';
 import User from './components/users/User';
-import Home from './components/mostPopularRepo/Home';
+import Home from './components/PublicRepositories/Home';
 import UserRepos from './components/users/UserRepos';
 import About from './components/about/About';
 import Repositories from './components/companies/Repositories';
